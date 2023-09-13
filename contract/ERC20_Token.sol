@@ -16,7 +16,7 @@ contract Token is ERC20, Ownable {
     *- No more tokens can be created.
     *
     */
-    constructor() ERC20("Mojaik FEE", "FEE") {
+    constructor() ERC20("Mojaik FEE Token", "FEE") {
         _mint(msg.sender, 50000000000000000000000000000 );
     }
 
